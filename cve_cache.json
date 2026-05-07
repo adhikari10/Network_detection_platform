@@ -1,0 +1,921 @@
+{
+  "4002": {
+    "cached_at": "2026-05-06T11:56:06.383293",
+    "matches": [
+      {
+        "port": 4002,
+        "service": "port-4002",
+        "cve_id": "CVE-2002-0102",
+        "description": "Oracle9iAS Web Cache 2.0.0.x allows remote attackers to cause a denial of service via (1) a request to TCP ports 1100, 4000, 4001, and 4002 with a large number of null characters, and (2) a request to",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0102"
+      },
+      {
+        "port": 4002,
+        "service": "port-4002",
+        "cve_id": "CVE-2006-6853",
+        "description": "Buffer overflow in Durian Web Application Server 3.02 freeware on Windows allows remote attackers to execute arbitrary code via a long string in a crafted packet to TCP port 4002.",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-6853"
+      },
+      {
+        "port": 4002,
+        "service": "port-4002",
+        "cve_id": "CVE-2023-46283",
+        "description": "A vulnerability has been identified in Opcenter Execution Foundation (All versions < V2407), Opcenter Quality (All versions < V2312), SIMATIC PCS neo (All versions < V4.1), SINEC NMS (All versions < V",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46283"
+      }
+    ]
+  },
+  "5222": {
+    "cached_at": "2026-05-06T11:56:07.672244",
+    "matches": [
+      {
+        "port": 5222,
+        "service": "port-5222",
+        "cve_id": "CVE-2026-27850",
+        "description": "Due to an improperly configured firewall rule, the router will accept any connection on the WAN port with the source port 5222, exposing all services which are normally only accessible through the loc",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27850"
+      }
+    ]
+  },
+  "30951": {
+    "cached_at": "2026-05-06T11:56:08.805150",
+    "matches": []
+  },
+  "32776": {
+    "cached_at": "2026-05-06T11:56:09.924493",
+    "matches": []
+  },
+  "9593": {
+    "cached_at": "2026-05-06T11:56:11.250252",
+    "matches": []
+  },
+  "67": {
+    "cached_at": "2026-05-06T16:10:23.990985",
+    "matches": [
+      {
+        "port": 67,
+        "service": "port-67",
+        "cve_id": "CVE-2000-0339",
+        "description": "ZoneAlarm 2.1.10 and earlier does not filter UDP packets with a source port of 67, which allows remote attackers to bypass the firewall rules.",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0339"
+      },
+      {
+        "port": 67,
+        "service": "port-67",
+        "cve_id": "CVE-2001-1143",
+        "description": "IBM DB2 7.0 allows a remote attacker to cause a denial of service (crash) via a single byte to (1) db2ccs.exe on port 6790, or (2) db2jds.exe on port 6789.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1143"
+      },
+      {
+        "port": 67,
+        "service": "port-67",
+        "cve_id": "CVE-2006-3551",
+        "description": "NCP Secure Enterprise Client (aka VPN/PKI client) 8.30 Build 59, and possibly earlier versions, when the Link Firewall and Personal Firewall are both configured to block all inbound and outbound netwo",
+        "cvss_score": 1.2,
+        "severity": "low",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-3551"
+      }
+    ]
+  },
+  "9440": {
+    "cached_at": "2026-05-06T16:55:32.117732",
+    "matches": []
+  },
+  "7201": {
+    "cached_at": "2026-05-06T16:55:33.227061",
+    "matches": []
+  },
+  "57649": {
+    "cached_at": "2026-05-06T16:55:34.323501",
+    "matches": []
+  },
+  "5266": {
+    "cached_at": "2026-05-06T16:55:35.457525",
+    "matches": []
+  },
+  "53371": {
+    "cached_at": "2026-05-06T16:55:36.709639",
+    "matches": []
+  },
+  "275": {
+    "cached_at": "2026-05-06T17:03:24.512454",
+    "matches": [
+      {
+        "port": 275,
+        "service": "port-275",
+        "cve_id": "CVE-2016-3763",
+        "description": "net/PacProxySelector.java in the Proxy Auto-Config (PAC) feature in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-07-01 does not ensure that URL information is ",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3763"
+      }
+    ]
+  },
+  "51": {
+    "cached_at": "2026-05-06T17:03:25.818035",
+    "matches": [
+      {
+        "port": 51,
+        "service": "port-51",
+        "cve_id": "CVE-2001-0707",
+        "description": "Denicomp RSHD 2.18 and earlier allows a remote attacker to cause a denial of service (crash) via a long string to port 514.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0707"
+      },
+      {
+        "port": 51,
+        "service": "port-51",
+        "cve_id": "CVE-2001-0750",
+        "description": "Cisco IOS 12.1(2)T, 12.1(3)T allow remote attackers to cause a denial of service (reload) via a connection to TCP ports 3100-3999, 5100-5999, 7100-7999 and 10100-10999.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0750"
+      },
+      {
+        "port": 51,
+        "service": "port-51",
+        "cve_id": "CVE-2002-0592",
+        "description": "AOL Instant Messenger (AIM) allows remote attackers to steal files that are being transferred to other clients by connecting to port 4443 (Direct Connection) or port 5190 (file transfer) before the in",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0592"
+      }
+    ]
+  },
+  "182": {
+    "cached_at": "2026-05-06T17:03:26.965459",
+    "matches": [
+      {
+        "port": 182,
+        "service": "port-182",
+        "cve_id": "CVE-2006-3885",
+        "description": "Directory traversal vulnerability in Check Point Firewall-1 R55W before HFA03 allows remote attackers to read arbitrary files via an encoded .. (dot dot) in the URL on TCP port 18264.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-3885"
+      },
+      {
+        "port": 182,
+        "service": "port-182",
+        "cve_id": "CVE-2008-5849",
+        "description": "Check Point VPN-1 R55, R65, and other versions, when Port Address Translation (PAT) is used, allows remote attackers to discover intranet IP addresses via a packet with a small TTL, which triggers an ",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-5849"
+      },
+      {
+        "port": 182,
+        "service": "port-182",
+        "cve_id": "CVE-2013-6035",
+        "description": "The firmware on GateHouse; Harris BGAN RF-7800B-VU204 and BGAN RF-7800B-DU204; Hughes Network Systems 9201, 9450, and 9502; Inmarsat; Japan Radio JUE-250 and JUE-500; and Thuraya IP satellite terminal",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-6035"
+      }
+    ]
+  },
+  "24": {
+    "cached_at": "2026-05-06T17:03:28.180394",
+    "matches": [
+      {
+        "port": 24,
+        "service": "port-24",
+        "cve_id": "CVE-2004-2078",
+        "description": "Red-M Red-Alert 2.7.5 with software 3.1 build 24 allows remote attackers to cause a denial of service (reboot and loss of logged events) via a long request to TCP port 80, possibly triggering a buffer",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2004-2078"
+      },
+      {
+        "port": 24,
+        "service": "port-24",
+        "cve_id": "CVE-2008-2108",
+        "description": "The GENERATE_SEED macro in PHP 4.x before 4.4.8 and 5.x before 5.2.5, when running on 64-bit systems, performs a multiplication that generates a portion of zero bits during conversion due to insuffici",
+        "cvss_score": 9.8,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-2108"
+      },
+      {
+        "port": 24,
+        "service": "port-24",
+        "cve_id": "CVE-2008-6974",
+        "description": "Multiple cross-site request forgery (CSRF) vulnerabilities in apply.cgi in DD-WRT 24 sp1 and earlier allow remote attackers to hijack the authentication of administrators for requests that (1) execute",
+        "cvss_score": 6.8,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-6974"
+      }
+    ]
+  },
+  "121": {
+    "cached_at": "2026-05-06T17:03:29.600918",
+    "matches": [
+      {
+        "port": 121,
+        "service": "port-121",
+        "cve_id": "CVE-2025-24811",
+        "description": "A vulnerability has been identified in SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0), SIMATIC S7-1200 CPU 1211C DC/DC/DC (6ES7211-1AE40-0XB0), SIMATIC S7-1200 CPU 1211C DC/DC/Rly (6ES7211-1",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24811"
+      },
+      {
+        "port": 121,
+        "service": "port-121",
+        "cve_id": "CVE-2025-24812",
+        "description": "A vulnerability has been identified in SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0) (All versions < V4.7), SIMATIC S7-1200 CPU 1211C DC/DC/DC (6ES7211-1AE40-0XB0) (All versions < V4.7), SI",
+        "cvss_score": 6.5,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24812"
+      }
+    ]
+  },
+  "993": {
+    "cached_at": "2026-05-06T17:13:45.045317",
+    "matches": []
+  },
+  "554": {
+    "cached_at": "2026-05-06T17:21:23.212302",
+    "matches": [
+      {
+        "port": 554,
+        "service": "port-554",
+        "cve_id": "CVE-2008-0374",
+        "description": "OKI C5510MFP Printer CU H2.15, PU 01.03.01, System F/W 1.01, and Web Page 1.00 sends the configuration of the printer in cleartext, which allows remote attackers to obtain the administrative password ",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0374"
+      },
+      {
+        "port": 554,
+        "service": "port-554",
+        "cve_id": "CVE-2013-1596",
+        "description": "An Authentication Bypass Vulnerability exists in Vivotek PT7135 IP Camera 0300a and 0400a via specially crafted RTSP packets to TCP port 554.",
+        "cvss_score": 5.3,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1596"
+      },
+      {
+        "port": 554,
+        "service": "port-554",
+        "cve_id": "CVE-2023-51624",
+        "description": "D-Link DCS-8300LHV2 RTSP ValidateAuthorizationHeader Nonce Stack-Based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary co",
+        "cvss_score": 8.8,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51624"
+      }
+    ]
+  },
+  "587": {
+    "cached_at": "2026-05-06T17:21:24.619778",
+    "matches": [
+      {
+        "port": 587,
+        "service": "port-587",
+        "cve_id": "CVE-2011-4871",
+        "description": "Open Automation Software OPC Systems.NET before 5.0 allows remote attackers to cause a denial of service via a malformed .NET RPC packet on TCP port 58723.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-4871"
+      }
+    ]
+  },
+  "139": {
+    "cached_at": "2026-05-06T17:21:25.976433",
+    "matches": [
+      {
+        "port": 139,
+        "service": "port-139",
+        "cve_id": "CVE-2002-2138",
+        "description": "RFC-NETBIOS in HP Advanced Server/9000 B.04.05 through B.04.09, when running HP-UX 11.00 or 11.11, allows remote attackers to cause a denial of service (panic) via a malformed UDP packet on port 139.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-2138"
+      },
+      {
+        "port": 139,
+        "service": "port-139",
+        "cve_id": "CVE-2007-3923",
+        "description": "The Common Internet File System (CIFS) optimization in Cisco Wide Area Application Services (WAAS) 4.0.7 and 4.0.9, as used by Cisco WAE appliance and the NM-WAE-502 network module, when Edge Services",
+        "cvss_score": 7.8,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-3923"
+      },
+      {
+        "port": 139,
+        "service": "port-139",
+        "cve_id": "CVE-2007-5580",
+        "description": "Buffer overflow in a certain driver in Cisco Security Agent 4.5.1 before 4.5.1.672, 5.0 before 5.0.0.225, 5.1 before 5.1.0.106, and 5.2 before 5.2.0.238 on Windows allows remote attackers to execute a",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-5580"
+      }
+    ]
+  },
+  "111": {
+    "cached_at": "2026-05-06T17:21:27.242152",
+    "matches": [
+      {
+        "port": 111,
+        "service": "port-111",
+        "cve_id": "CVE-1999-0189",
+        "description": "Solaris rpcbind listens on a high numbered UDP port, which may not be filtered since the standard port number is 111.",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0189"
+      },
+      {
+        "port": 111,
+        "service": "port-111",
+        "cve_id": "CVE-1999-1349",
+        "description": "NFS daemon (nfsd.exe) for Omni-NFS/X 6.1 allows remote attackers to cause a denial of service (resource exhaustion) via certain packets, possibly with the Urgent (URG) flag set, to port 111.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1349"
+      },
+      {
+        "port": 111,
+        "service": "port-111",
+        "cve_id": "CVE-2005-0315",
+        "description": "The FTP service in Magic Winmail Server 4.0 Build 1112 does not verify that the IP address in a PORT command is the same as the IP address of the user of the FTP session, which allows remote authentic",
+        "cvss_score": 4.6,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2005-0315"
+      }
+    ]
+  },
+  "113": {
+    "cached_at": "2026-05-06T17:21:28.554134",
+    "matches": [
+      {
+        "port": 113,
+        "service": "port-113",
+        "cve_id": "CVE-2007-2711",
+        "description": "Stack-based buffer overflow in TinyIdentD 2.2 and earlier allows remote attackers to execute arbitrary code via a long string to TCP port 113.",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-2711"
+      },
+      {
+        "port": 113,
+        "service": "port-113",
+        "cve_id": "CVE-2012-3012",
+        "description": "The Arbiter Power Sentinel 1133A device with firmware before 11Jun2012 Rev 421 allows remote attackers to cause a denial of service (Ethernet outage) via unspecified Ethernet traffic that fills a buff",
+        "cvss_score": 7.8,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-3012"
+      },
+      {
+        "port": 113,
+        "service": "port-113",
+        "cve_id": "CVE-2025-40115",
+        "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: mpt3sas: Fix crash in transport port remove by using ioc_info()\n\nDuring mpt3sas_transport_port_remove(), messages were logged",
+        "cvss_score": 0.0,
+        "severity": "low",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40115"
+      }
+    ]
+  },
+  "41092": {
+    "cached_at": "2026-05-06T17:23:45.199159",
+    "matches": []
+  },
+  "41093": {
+    "cached_at": "2026-05-06T17:23:46.432407",
+    "matches": []
+  },
+  "41094": {
+    "cached_at": "2026-05-06T17:23:47.738995",
+    "matches": []
+  },
+  "62420": {
+    "cached_at": "2026-05-06T17:23:48.807384",
+    "matches": []
+  },
+  "59606": {
+    "cached_at": "2026-05-06T17:23:50.011859",
+    "matches": []
+  },
+  "1994": {
+    "cached_at": "2026-05-06T17:31:49.428066",
+    "matches": []
+  },
+  "1996": {
+    "cached_at": "2026-05-06T17:31:51.109670",
+    "matches": [
+      {
+        "port": 1996,
+        "service": "port-1996",
+        "cve_id": "CVE-2024-26741",
+        "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndccp/tcp: Unhash sk from ehash for tb2 alloc failure after check_estalblished().\n\nsyzkaller reported a warning [0] in inet_csk_dest",
+        "cvss_score": 5.5,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26741"
+      },
+      {
+        "port": 1996,
+        "service": "port-1996",
+        "cve_id": "CVE-2021-47606",
+        "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: netlink: af_netlink: Prevent empty skb by adding a check on len.\n\nAdding a check on len parameter to avoid empty skb. This pre",
+        "cvss_score": 5.5,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47606"
+      },
+      {
+        "port": 1996,
+        "service": "port-1996",
+        "cve_id": "CVE-2024-58071",
+        "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nteam: prevent adding a device which is already a team device lower\n\nPrevent adding a device which is already a team device lower,\ne",
+        "cvss_score": 5.5,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58071"
+      }
+    ]
+  },
+  "17037": {
+    "cached_at": "2026-05-06T17:31:52.195928",
+    "matches": []
+  },
+  "17038": {
+    "cached_at": "2026-05-06T17:31:53.280755",
+    "matches": []
+  },
+  "22940": {
+    "cached_at": "2026-05-06T17:31:54.336024",
+    "matches": []
+  },
+  "28292": {
+    "cached_at": "2026-05-06T17:32:01.021668",
+    "matches": []
+  },
+  "16202": {
+    "cached_at": "2026-05-06T17:32:02.430818",
+    "matches": []
+  },
+  "45867": {
+    "cached_at": "2026-05-06T17:32:03.697537",
+    "matches": []
+  },
+  "25810": {
+    "cached_at": "2026-05-06T17:32:04.816924",
+    "matches": []
+  },
+  "58462": {
+    "cached_at": "2026-05-06T17:32:05.930856",
+    "matches": []
+  },
+  "58464": {
+    "cached_at": "2026-05-06T17:32:24.411380",
+    "matches": []
+  },
+  "58465": {
+    "cached_at": "2026-05-06T17:32:25.553368",
+    "matches": []
+  },
+  "17036": {
+    "cached_at": "2026-05-06T17:32:26.814921",
+    "matches": []
+  },
+  "22938": {
+    "cached_at": "2026-05-06T17:32:27.929611",
+    "matches": []
+  },
+  "58463": {
+    "cached_at": "2026-05-06T17:32:29.064608",
+    "matches": []
+  },
+  "48801": {
+    "cached_at": "2026-05-06T17:34:49.441829",
+    "matches": []
+  },
+  "13505": {
+    "cached_at": "2026-05-06T17:34:50.600808",
+    "matches": []
+  },
+  "22511": {
+    "cached_at": "2026-05-06T17:34:51.730042",
+    "matches": []
+  },
+  "23697": {
+    "cached_at": "2026-05-06T17:34:52.988511",
+    "matches": []
+  },
+  "22934": {
+    "cached_at": "2026-05-06T17:34:54.685818",
+    "matches": []
+  },
+  "23012": {
+    "cached_at": "2026-05-06T17:36:09.394523",
+    "matches": []
+  },
+  "16783": {
+    "cached_at": "2026-05-06T17:36:10.699537",
+    "matches": []
+  },
+  "36693": {
+    "cached_at": "2026-05-06T17:36:11.900002",
+    "matches": []
+  },
+  "43163": {
+    "cached_at": "2026-05-06T17:36:13.236113",
+    "matches": []
+  },
+  "16383": {
+    "cached_at": "2026-05-06T17:36:14.518404",
+    "matches": []
+  },
+  "16998": {
+    "cached_at": "2026-05-06T17:36:16.001979",
+    "matches": []
+  },
+  "17001": {
+    "cached_at": "2026-05-06T17:36:17.126308",
+    "matches": [
+      {
+        "port": 17001,
+        "service": "port-17001",
+        "cve_id": "CVE-2019-7214",
+        "description": "SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrusted data. An unauthenticated attacker could run commands on the server when port 17001 was remotely accessible. This por",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7214"
+      }
+    ]
+  },
+  "11638": {
+    "cached_at": "2026-05-06T17:36:18.256456",
+    "matches": []
+  },
+  "36919": {
+    "cached_at": "2026-05-06T17:36:19.376713",
+    "matches": []
+  },
+  "9913": {
+    "cached_at": "2026-05-06T17:36:20.625472",
+    "matches": []
+  },
+  "54080": {
+    "cached_at": "2026-05-06T17:36:27.476331",
+    "matches": []
+  },
+  "20416": {
+    "cached_at": "2026-05-06T17:36:28.891384",
+    "matches": []
+  },
+  "62373": {
+    "cached_at": "2026-05-06T17:36:30.322350",
+    "matches": []
+  },
+  "18767": {
+    "cached_at": "2026-05-06T17:36:31.605120",
+    "matches": []
+  },
+  "41660": {
+    "cached_at": "2026-05-06T17:36:32.760463",
+    "matches": []
+  },
+  "45632": {
+    "cached_at": "2026-05-06T17:36:34.449797",
+    "matches": []
+  },
+  "11425": {
+    "cached_at": "2026-05-06T17:36:35.709260",
+    "matches": []
+  },
+  "60988": {
+    "cached_at": "2026-05-06T17:36:37.989052",
+    "matches": []
+  },
+  "14792": {
+    "cached_at": "2026-05-06T17:36:40.465937",
+    "matches": []
+  },
+  "43529": {
+    "cached_at": "2026-05-06T17:36:41.564522",
+    "matches": []
+  },
+  "24057": {
+    "cached_at": "2026-05-06T17:37:01.708558",
+    "matches": []
+  },
+  "49946": {
+    "cached_at": "2026-05-06T17:37:02.783624",
+    "matches": []
+  },
+  "45737": {
+    "cached_at": "2026-05-06T17:37:08.796390",
+    "matches": []
+  },
+  "12696": {
+    "cached_at": "2026-05-06T17:37:10.167866",
+    "matches": []
+  },
+  "43136": {
+    "cached_at": "2026-05-06T17:37:13.669130",
+    "matches": []
+  },
+  "63142": {
+    "cached_at": "2026-05-07T10:50:47.539407",
+    "matches": []
+  },
+  "63143": {
+    "cached_at": "2026-05-07T10:50:49.086660",
+    "matches": []
+  },
+  "63144": {
+    "cached_at": "2026-05-07T10:50:50.156948",
+    "matches": []
+  },
+  "62409": {
+    "cached_at": "2026-05-07T10:50:51.306997",
+    "matches": []
+  },
+  "62411": {
+    "cached_at": "2026-05-07T10:50:52.420057",
+    "matches": []
+  },
+  "54752": {
+    "cached_at": "2026-05-07T10:54:21.880989",
+    "matches": []
+  },
+  "52655": {
+    "cached_at": "2026-05-07T10:54:24.331224",
+    "matches": []
+  },
+  "7058": {
+    "cached_at": "2026-05-07T10:54:25.492972",
+    "matches": []
+  },
+  "59158": {
+    "cached_at": "2026-05-07T10:54:26.599815",
+    "matches": []
+  },
+  "47930": {
+    "cached_at": "2026-05-07T10:54:27.747376",
+    "matches": []
+  },
+  "34566": {
+    "cached_at": "2026-05-07T11:46:23.430032",
+    "matches": []
+  },
+  "34568": {
+    "cached_at": "2026-05-07T11:46:24.557140",
+    "matches": []
+  },
+  "61740": {
+    "cached_at": "2026-05-07T11:46:25.675525",
+    "matches": []
+  },
+  "60812": {
+    "cached_at": "2026-05-07T11:46:26.792768",
+    "matches": []
+  },
+  "60813": {
+    "cached_at": "2026-05-07T11:46:27.909837",
+    "matches": []
+  },
+  "63106": {
+    "cached_at": "2026-05-07T12:03:28.209143",
+    "matches": []
+  },
+  "60777": {
+    "cached_at": "2026-05-07T12:03:29.318299",
+    "matches": []
+  },
+  "61773": {
+    "cached_at": "2026-05-07T12:03:30.956866",
+    "matches": []
+  },
+  "62485": {
+    "cached_at": "2026-05-07T12:03:32.681968",
+    "matches": []
+  },
+  "63174": {
+    "cached_at": "2026-05-07T12:07:58.469011",
+    "matches": []
+  },
+  "61737": {
+    "cached_at": "2026-05-07T12:07:59.564617",
+    "matches": []
+  },
+  "63177": {
+    "cached_at": "2026-05-07T12:08:00.677012",
+    "matches": []
+  },
+  "36109": {
+    "cached_at": "2026-05-07T12:08:01.827615",
+    "matches": []
+  },
+  "6320": {
+    "cached_at": "2026-05-07T12:08:03.332836",
+    "matches": []
+  },
+  "63117": {
+    "cached_at": "2026-05-07T12:08:04.535818",
+    "matches": []
+  },
+  "61741": {
+    "cached_at": "2026-05-07T12:08:05.693914",
+    "matches": []
+  },
+  "6354": {
+    "cached_at": "2026-05-07T12:08:06.795434",
+    "matches": []
+  },
+  "60786": {
+    "cached_at": "2026-05-07T12:08:07.907694",
+    "matches": []
+  },
+  "62430": {
+    "cached_at": "2026-05-07T12:08:09.096945",
+    "matches": []
+  },
+  "60778": {
+    "cached_at": "2026-05-07T12:08:14.407164",
+    "matches": []
+  },
+  "62442": {
+    "cached_at": "2026-05-07T12:08:46.020980",
+    "matches": []
+  },
+  "6376": {
+    "cached_at": "2026-05-07T12:09:03.391338",
+    "matches": []
+  },
+  "60805": {
+    "cached_at": "2026-05-07T12:09:07.970880",
+    "matches": []
+  },
+  "53": {
+    "cached_at": "2026-05-07T13:34:22.141628",
+    "matches": [
+      {
+        "port": 53,
+        "service": "port-53",
+        "cve_id": "CVE-1999-0275",
+        "description": "Denial of service in Windows NT DNS servers by flooding port 53 with too many characters.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0275"
+      },
+      {
+        "port": 53,
+        "service": "port-53",
+        "cve_id": "CVE-1999-0438",
+        "description": "Remote attackers can perform a denial of service in WebRamp systems by sending a malicious UDP packet to port 5353, changing its IP address.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0438"
+      },
+      {
+        "port": 53,
+        "service": "port-53",
+        "cve_id": "CVE-2001-1259",
+        "description": "Avaya Argent Office allows remote attackers to cause a denial of service by sending UDP packets to port 53 with no payload.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1259"
+      }
+    ]
+  },
+  "25": {
+    "cached_at": "2026-05-07T13:34:23.578667",
+    "matches": [
+      {
+        "port": 25,
+        "service": "port-25",
+        "cve_id": "CVE-2001-1158",
+        "description": "Check Point VPN-1/FireWall-1 4.1 base.def contains a default macro, accept_fw1_rdp, which can allow remote attackers to bypass intended restrictions with forged RDP (internal protocol) headers to UDP ",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1158"
+      },
+      {
+        "port": 25,
+        "service": "port-25",
+        "cve_id": "CVE-2001-0585",
+        "description": "Gordano NTMail 6.0.3c allows a remote attacker to create a denial of service via a long (>= 255 characters) URL request to port 8000 or port 9000.",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0585"
+      },
+      {
+        "port": 25,
+        "service": "port-25",
+        "cve_id": "CVE-2002-1026",
+        "description": "Macromedia Sitespring 1.2.0 (277.1) using Sybase runtime engine 7.0.2.1480 allows remote attackers to cause a denial of service (crash) via a long malformed request to TCP port 2500, possibly triggeri",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1026"
+      }
+    ]
+  },
+  "199": {
+    "cached_at": "2026-05-07T15:13:31.581654",
+    "matches": [
+      {
+        "port": 199,
+        "service": "port-199",
+        "cve_id": "CVE-1999-0453",
+        "description": "An attacker can identify a CISCO device by sending a SYN packet to port 1999, which is for the Cisco Discovery Protocol (CDP).",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0453"
+      },
+      {
+        "port": 199,
+        "service": "port-199",
+        "cve_id": "CVE-2018-7756",
+        "description": "RunExeFile.exe in the installer for DEWESoft X3 SP1 (64-bit) devices does not require authentication for sessions on TCP port 1999, which allows remote attackers to execute arbitrary code or access in",
+        "cvss_score": 10.0,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7756"
+      },
+      {
+        "port": 199,
+        "service": "port-199",
+        "cve_id": "CVE-2019-11687",
+        "description": "An issue was discovered in the DICOM Part 10 File Format in the NEMA DICOM Standard 1995 through 2019b and continuing in current implementations. The 128-byte preamble of a DICOM file that complies wi",
+        "cvss_score": 9.3,
+        "severity": "critical",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11687"
+      }
+    ]
+  },
+  "110": {
+    "cached_at": "2026-05-07T15:23:36.168427",
+    "matches": [
+      {
+        "port": 110,
+        "service": "port-110",
+        "cve_id": "CVE-2002-0102",
+        "description": "Oracle9iAS Web Cache 2.0.0.x allows remote attackers to cause a denial of service via (1) a request to TCP ports 1100, 4000, 4001, and 4002 with a large number of null characters, and (2) a request to",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0102"
+      },
+      {
+        "port": 110,
+        "service": "port-110",
+        "cve_id": "CVE-2002-0949",
+        "description": "Telindus 1100 series ADSL router allows remote attackers to gain privileges to the device via a certain packet to UDP port 9833, which generates a reply that includes the router's password and other s",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0949"
+      },
+      {
+        "port": 110,
+        "service": "port-110",
+        "cve_id": "CVE-2002-1349",
+        "description": "Buffer overflow in pop3trap.exe for PC-cillin 2000, 2002, and 2003 allows local users to execute arbitrary code via a long input string to TCP port 110 (POP3).",
+        "cvss_score": 4.6,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1349"
+      }
+    ]
+  },
+  "143": {
+    "cached_at": "2026-05-07T15:23:37.364707",
+    "matches": [
+      {
+        "port": 143,
+        "service": "port-143",
+        "cve_id": "CVE-2002-0649",
+        "description": "Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0649"
+      },
+      {
+        "port": 143,
+        "service": "port-143",
+        "cve_id": "CVE-2002-0650",
+        "description": "The keep-alive mechanism for Microsoft SQL Server 2000 allows remote attackers to cause a denial of service (bandwidth consumption) via a \"ping\" style packet to the Resolution Service (UDP port 1434) ",
+        "cvss_score": 5.0,
+        "severity": "medium",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0650"
+      },
+      {
+        "port": 143,
+        "service": "port-143",
+        "cve_id": "CVE-2002-1123",
+        "description": "Buffer overflow in the authentication function for Microsoft SQL Server 2000 and Microsoft Desktop Engine (MSDE) 2000 allows remote attackers to execute arbitrary code via a long request to TCP port 1",
+        "cvss_score": 7.5,
+        "severity": "high",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1123"
+      }
+    ]
+  }
+}

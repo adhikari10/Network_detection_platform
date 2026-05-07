@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Light mode (default) */
+  :root {
+    --g-bg: 248 250 252;
+    --g-card: 255 255 255;
+    --g-card-hover: 241 245 249;
+    --g-border: 226 232 240;
+    --g-border-light: 203 213 225;
+    --g-text-primary: 15 23 42;
+    --g-text-secondary: 71 85 105;
+    --g-text-muted: 148 163 184;
+  }
+
+  /* Dark mode */
+  .dark {
+    --g-bg: 10 14 23;
+    --g-card: 17 24 39;
+    --g-card-hover: 26 31 46;
+    --g-border: 30 41 59;
+    --g-border-light: 45 55 72;
+    --g-text-primary: 226 232 240;
+    --g-text-secondary: 148 163 184;
+    --g-text-muted: 100 116 139;
+  }
+
+  * {
+    scrollbar-width: thin;
+  }
+
+  .dark * {
+    scrollbar-color: #1e293b #0a0e17;
+  }
+
+  :not(.dark) * {
+    scrollbar-color: #cbd5e1 #f1f5f9;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .dark *::-webkit-scrollbar-track {
+    background: #0a0e17;
+  }
+
+  :not(.dark) *::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  .dark *::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+  }
+
+  :not(.dark) *::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+
+  .dark *::-webkit-scrollbar-thumb:hover {
+    background: #2d3748;
+  }
+
+  :not(.dark) *::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-guardian-card border border-guardian-border rounded-lg p-4;
+  }
+
+  .card-header {
+    @apply text-xs uppercase tracking-wider text-muted mb-3 flex items-center gap-2;
+  }
+
+  .badge-critical {
+    @apply bg-red-500/20 text-red-400 dark:text-red-400 px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-high {
+    @apply bg-orange-500/20 text-orange-400 dark:text-orange-400 px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-medium {
+    @apply bg-yellow-500/20 text-yellow-500 dark:text-yellow-400 px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .badge-low {
+    @apply bg-blue-500/20 text-blue-500 dark:text-blue-400 px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  .status-active {
+    @apply text-guardian-accent;
+  }
+
+  .status-blocked {
+    @apply text-red-400;
+  }
+
+  .status-monitoring {
+    @apply text-yellow-400;
+  }
+
+  .glow-border {
+    box-shadow: 0 0 15px rgba(0, 255, 157, 0.1), inset 0 0 15px rgba(0, 255, 157, 0.05);
+  }
+
+  .btn-primary {
+    @apply bg-guardian-accent/20 text-guardian-accent border border-guardian-accent/30
+           px-3 py-1.5 rounded text-xs font-medium hover:bg-guardian-accent/30
+           transition-all duration-200 cursor-pointer;
+  }
+
+  .btn-danger {
+    @apply bg-red-500/20 text-red-400 border border-red-500/30
+           px-3 py-1.5 rounded text-xs font-medium hover:bg-red-500/30
+           transition-all duration-200 cursor-pointer;
+  }
+
+  .btn-warning {
+    @apply bg-yellow-500/20 text-yellow-400 border border-yellow-500/30
+           px-3 py-1.5 rounded text-xs font-medium hover:bg-yellow-500/30
+           transition-all duration-200 cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
+  }
+}
